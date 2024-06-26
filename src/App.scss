@@ -1,0 +1,301 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+li {
+  list-style-type: none;
+}
+
+.project {
+  .wrapper {
+    max-width: 100%;
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main {
+    max-width: 78%;
+    width: 100%;
+    padding: 50px;
+
+    ul {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+
+      li {
+        padding: 5px 10px;
+        border-radius: 20px;
+        color: gray;
+        font-weight: 500;
+        font-size: 18px;
+      }
+    }
+
+    .hero {
+      max-width: 100%;
+      width: 100%;
+      height: 350px;
+      margin-top: 20px;
+      background: url(../src/assets/img/hero.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      border-radius: 50px;
+      display: flex;
+      align-items: center;
+      padding: 50px;
+
+      h1 {
+        color: white;
+        font-weight: 700;
+        font-size: 42px;
+        width: 500px;
+      }
+
+      button {
+        border: none;
+        background-color: #fc8b40;
+        color: white;
+        font-size: 16px;
+        padding: 10px 20px;
+        border-radius: 8px;
+      }
+    }
+
+    .popular {
+      margin-top: 20px;
+      h2 {
+        color: #261d56;
+        margin-bottom: 5px;
+      }
+
+      .card__hug {
+        max-width: 100%;
+        width: 100%;
+        height: 250px;
+        display: flex;
+        gap: 20px;
+        font-family: "Oxanium", sans-serif;
+
+        .card {
+          width: 180px;
+          height: 250px;
+          background-color: gold;
+          border-radius: 10px;
+          background: url(../src/assets/img/card1.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+          display: flex;
+          justify-content: end;
+          flex-direction: column;
+          padding: 20px 10px;
+          color: white;
+          h3 {
+            font-size: 24px;
+            font-weight: 700;
+          }
+        }
+
+        .card2 {
+          background: url(../src/assets/img/card2.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .card3 {
+          background: url(../src/assets/img/card3.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .card4 {
+          background: url(../src/assets/img/card4.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+        .card5 {
+          background: url(../src/assets/img/card5.png);
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      }
+    }
+
+    .new {
+      margin-top: 20px;
+      h2 {
+        margin-bottom: 20px;
+        color: #261d56;
+      }
+
+      .new__card__hug {
+        max-width: 100%;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        .small-card {
+          width: 230px;
+          height: 90px;
+          padding: 10px;
+          box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.397);
+          border-radius: 10px;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+
+          .small-card-img {
+            width: 40%;
+            height: 100%;
+            border-radius: 20px;
+
+            img {
+              width: 100%;
+              height: 100%;
+              border-radius: 10px;
+              object-fit: cover;
+            }
+          }
+
+          .small-card-content {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            width: 60%;
+
+            h3 {
+              font-size: 15px;
+            }
+            p {
+              color: gray;
+              font-size: 12px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+  
+
+  .sidebar {
+    max-width: 320px;
+    width: 100%;
+    padding: 50px 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.437);
+    background-color: white;
+
+
+    .admin-bell{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+    h2{
+    color: #22283C;
+    }
+
+    .orangeDiv{
+        width: 100%;
+        height: 80px;
+        background-color:#fc8b40;
+    }
+
+    .small-card {
+        width: 100%;
+        height: 90px;
+        padding: 10px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 20px;
+
+        .small-card-img {
+          width: 40%;
+          height: 100%;
+          border-radius: 20px;
+
+          img {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+          }
+        }
+
+        .small-card-content {
+          display: flex;
+          flex-direction: column;
+          gap: 5px;
+          width: 60%;
+
+          h3 {
+            font-size: 15px;
+          }
+          p {
+            color: gray;
+            font-size: 12px;
+            text-align: left;
+          }
+        }
+      }
+
+
+
+
+      .oneGame{
+        max-width: 100%;
+        width: 100%;
+        height: 500px;
+        margin-top: 50px;
+
+        .oneGame__img{
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        .oneGame__content{
+            h3{
+                font-size: 25px;
+                font-style: italic;
+
+            }
+            span{
+                display: block;
+                color: gray;
+                font-size: 18px;
+                margin: 10px 0;
+                font-style: italic;
+            }
+            p{
+                color: gray;
+                margin-top: 10px;
+            }
+        }
+      }
+  }
+}
